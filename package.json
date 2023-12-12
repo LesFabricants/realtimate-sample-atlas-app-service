@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "build": "npx realtimate build -v --source src --destination .",
+    "dev": "npx realtimate watch -M --source src"
+  },
+  "devDependencies": {
+    "realtimate": "^2.1.0-develop.7",
+    "typescript": "^5.3.3"
+  }
+}
